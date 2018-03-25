@@ -56,7 +56,7 @@
         <item name="android:ems">10</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:inputType">textPersonName|textCapWords</item>
-        <item name="android:textSize">19dp</item>
+        <item name="android:textSize">19sp</item>
         <item name="android:textColor">#424242</item>
         <item name="android:textStyle">bold</item>
         <item name="android:hint">Your Name</item>
@@ -73,7 +73,7 @@
         <item name="android:ems">10</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:inputType">textPersonName|textCapWords</item>
-        <item name="android:textSize">19dp</item>
+        <item name="android:textSize">19sp</item>
         <item name="android:textColor">#424242</item>
         <item name="android:textStyle">bold</item>
         <item name="android:hint">Your Name</item>
@@ -85,7 +85,7 @@
         <item name="android:layout_marginBottom">16dp</item>
         <item name="android:layout_gravity">center</item>
         <item name="android:textAlignment">center</item>
-        <item name="android:textSize">16dp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">#424242</item>
         <item name="android:background">#EEEEEE</item>
     </style>
@@ -163,7 +163,7 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">#424242</item>
-        <item name="android:textSize">20dp</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
     <style name="sumTextsLand">
@@ -176,7 +176,7 @@
         <item name="android:layout_gravity">center</item>
         <item name="android:textAlignment">center</item>
         <item name="android:textColor">#424242</item>
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="retryButton">
@@ -185,7 +185,7 @@
         <item name="android:layout_marginTop">25dp</item>
         <item name="android:layout_marginBottom">16dp</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">15dp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">#424242</item>
         <item name="android:background">#E0E0E0</item>
     </style>
@@ -196,7 +196,7 @@
         <item name="android:layout_marginTop">14dp</item>
         <item name="android:layout_marginBottom">16dp</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:textSize">15dp</item>
+        <item name="android:textSize">15sp</item>
         <item name="android:textColor">#424242</item>
         <item name="android:background">#E0E0E0</item>
     </style>
