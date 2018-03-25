@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="start_button">Start Quiz</string>
+    <string name="question_number">Question </string>
+    <string name="summary">Summary</string>
+    <string name="retry_button">Retry</string>
+    <string name="first_question">Which animal has an unusually blue-black color of the tongue?</string>
+    <string name="first_question_answer1">dog Chow Chow</string>
+    <string name="first_question_answer2">crocodile</string>
+    <string name="first_question_answer3">squirrel</string>
+    <string name="first_question_answer4">giraffe</string>
+    <string name="second_question">Can birds fly back?</string>
+    <string name="second_question_answer1">only hummingbirds can</string>
+    <string name="second_question_answer2">they can not</string>
+    <string name="second_question_answer3">yes, of course!</string>
+    <string name="second_question_answer4">only when they get scared</string>
+    <string name="third_question">What is the kangaroo tail for?</string>
+    <string name="third_question_answer1">to lure partners</string>
+    <string name="third_question_answer2">to get away from insects</string>
+    <string name="third_question_answer3">for body balance during jumps</string>
+    <string name="third_question_answer4">to play</string>
+    <string name="fourth_question">What species have menopausal similar to women?</string>
+    <string name="fourth_question_answer1">brown bear and panda</string>
+    <string name="fourth_question_answer2">kiwi and tiger</string>
+    <string name="fourth_question_answer3">cat and dog</string>
+    <string name="fourth_question_answer4">whale and elephant</string>
+    <string name="fifth_question">What percent of life sloth is sleeping?</string>
+    <string name="fifth_question_answer1">60%</string>
+    <string name="fifth_question_answer2">40%</string>
+    <string name="fifth_question_answer3">up to 80%</string>
+    <string name="fifth_question_answer4">20%</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_end_quiz">EndQuiz</string>
+    <string name="title_activity_start_quiz">StartQuiz</string>
+    <string name="toast_one">You should mark 2 answers</string>
+    <string name="toast_two">Keep going</string>
+    <string name="result6p">The world of animals has no secrets from you!</string>
+    <string name="result5p">Not much can surprise you in the animal world</string>
+    <string name="result4p3p">Not bad, ita\'s easy to see that you like animals</string>
+    <string name="result2p1p">It could be better - maybe ita\'s time for a nature movie?;)</string>
+
+</resources>

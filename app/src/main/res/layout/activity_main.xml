@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.quizudacity.MainActivity"
+    style="@style/scrollView">
+
+    <LinearLayout
+        style="@style/startScreenLinear"
+        android:background="@drawable/treeeeeee">
+
+        <EditText
+            android:id="@+id/edit_name"
+            style="@style/editName" />
+
+        <Button
+            android:id="@+id/start_button"
+            style="@style/startButton"
+            android:text="@string/start_button">
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollView"
+    tools:context="com.example.android.quizudacity.MainActivity">
+
+    <LinearLayout style="@style/universalLinear">
+
+        <TextView
+            style="@style/questionNumber"
+            android:text="Question 1" />
+
+        <LinearLayout style="@style/imageLinear">
+
+            <ImageView
+                style="@style/questionImage"
+                android:src="@drawable/tongue" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question1"
+            style="@style/questionText"
+            android:text="@string/first_question" />
+
+        <LinearLayout
+            style="@style/universalLinear"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <LinearLayout style="@style/radioGroupLand">
+
+                <CheckBox
+                    android:id="@+id/first_q_answer_1"
+                    style="@style/radioButton"
+                    android:text="@string/first_question_answer1"
+                    android:textAlignment="center" />
+
+                <CheckBox
+                    android:id="@+id/first_q_answer_2"
+                    style="@style/radioButton"
+                    android:text="@string/first_question_answer2" />
+
+                <CheckBox
+                    android:id="@+id/first_q_answer_3"
+                    style="@style/radioButton"
+                    android:text="@string/first_question_answer3" />
+
+                <CheckBox
+                    android:id="@+id/first_q_answer_4"
+                    style="@style/radioButton"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/first_question_answer4" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionNumber"
+            android:layout_marginTop="30dp"
+            android:text="Question 2" />
+
+        <LinearLayout style="@style/imageLinear">
+
+            <ImageView
+                android:id="@+id/image2"
+                style="@style/questionImage"
+                android:src="@drawable/gesi" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question2"
+            style="@style/questionText"
+            android:text="@string/second_question" />
+
+        <LinearLayout
+            style="@style/universalLinear"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <RadioGroup
+                android:id="@+id/second_q_radio_group"
+                style="@style/radioGroupLand">
+
+                <RadioButton
+                    android:id="@+id/second_q_answer_1"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonSecondQuestionClicked"
+                    android:text="@string/second_question_answer1" />
+
+                <RadioButton
+                    android:id="@+id/second_q_answer_2"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonSecondQuestionClicked"
+                    android:text="@string/second_question_answer2" />
+
+                <RadioButton
+                    android:id="@+id/second_q_answer_3"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonSecondQuestionClicked"
+                    android:text="@string/second_question_answer3" />
+
+                <RadioButton
+                    android:id="@+id/second_q_answer_4"
+                    style="@style/radioButton"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="onRadioButtonSecondQuestionClicked"
+                    android:text="@string/second_question_answer4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionNumber"
+            android:layout_marginTop="30dp"
+            android:text="Question 3" />
+
+        <LinearLayout style="@style/imageLinear">
+
+            <ImageView
+                style="@style/questionImage"
+                android:src="@drawable/kangaroo" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question3"
+            style="@style/questionText"
+            android:text="@string/third_question" />
+
+        <LinearLayout
+            style="@style/universalLinear"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <RadioGroup
+                android:id="@+id/third_q_radio_group"
+                style="@style/radioGroupLand">
+
+                <RadioButton
+                    android:id="@+id/third_q_answer_1"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonThirdQuestionClicked"
+                    android:text="@string/third_question_answer1" />
+
+                <RadioButton
+                    android:id="@+id/third_q_answer_2"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonThirdQuestionClicked"
+                    android:text="@string/third_question_answer2" />
+
+                <RadioButton
+                    android:id="@+id/third_q_answer_3"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonThirdQuestionClicked"
+                    android:text="@string/third_question_answer3" />
+
+                <RadioButton
+                    android:id="@+id/third_q_answer_4"
+                    style="@style/radioButton"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="onRadioButtonThirdQuestionClicked"
+                    android:text="@string/third_question_answer4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionNumber"
+            android:layout_marginTop="30dp"
+            android:text="Question 4" />
+
+        <LinearLayout style="@style/imageLinear">
+
+            <ImageView
+                style="@style/questionImage"
+                android:src="@drawable/mis" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question4"
+            style="@style/questionText"
+            android:text="@string/fourth_question" />
+
+        <LinearLayout
+            style="@style/universalLinear"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <RadioGroup
+                android:id="@+id/fourth_q_radio_group"
+                style="@style/radioGroupLand">
+
+                <RadioButton
+                    android:id="@+id/fourth_q_answer_1"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonFourthQuestionClicked"
+                    android:text="@string/fourth_question_answer1" />
+
+                <RadioButton
+                    android:id="@+id/fourth_q_answer_2"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonFourthQuestionClicked"
+                    android:text="@string/fourth_question_answer2" />
+
+                <RadioButton
+                    android:id="@+id/fourth_q_answer_3"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonFourthQuestionClicked"
+                    android:text="@string/fourth_question_answer3" />
+
+                <RadioButton
+                    android:id="@+id/fourth_q_answer_4"
+                    style="@style/radioButton"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="onRadioButtonFourthQuestionClicked"
+                    android:text="@string/fourth_question_answer4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            style="@style/questionNumber"
+            android:layout_marginTop="30dp"
+            android:text="Question 5" />
+
+        <LinearLayout style="@style/imageLinear">
+
+            <ImageView
+                style="@style/questionImage"
+                android:src="@drawable/sloth" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question5"
+            style="@style/questionText"
+            android:text="@string/fifth_question" />
+
+        <LinearLayout
+            style="@style/universalLinear"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <RadioGroup
+                android:id="@+id/fifth_q_radio_group"
+                style="@style/radioGroupLand">
+
+                <RadioButton
+                    android:id="@+id/fifth_q_answer_1"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonFifthQuestionClicked"
+                    android:text="@string/fifth_question_answer1" />
+
+                <RadioButton
+                    android:id="@+id/fifth_q_answer_2"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonFifthQuestionClicked"
+                    android:text="@string/fifth_question_answer2" />
+
+                <RadioButton
+                    android:id="@+id/fifth_q_answer_3"
+                    style="@style/radioButton"
+                    android:onClick="onRadioButtonFifthQuestionClicked"
+                    android:text="@string/fifth_question_answer3" />
+
+                <RadioButton
+                    android:id="@+id/fifth_q_answer_4"
+                    style="@style/radioButton"
+                    android:layout_marginBottom="20dp"
+                    android:onClick="onRadioButtonFifthQuestionClicked"
+                    android:text="@string/fifth_question_answer4" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/sum_button"
+            style="@style/retryButton"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="onClickSumButtonClicked"
+            android:text="@string/summary">
+        </Button>
+
+    </LinearLayout>
+</ScrollView>
