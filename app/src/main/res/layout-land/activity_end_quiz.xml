@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollView"
+    tools:context="com.example.android.quizudacity.EndQuiz">
+
+    <LinearLayout style="@style/universalLinear">
+
+        <LinearLayout
+            style="@style/imageLinear"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/image"
+                style="@style/sumImage"
+                android:src="@drawable/cow" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/user_name"
+            style="@style/sumTextsLand" />
+
+        <TextView
+            android:id="@+id/result"
+            style="@style/sumTextsLand" />
+
+        <TextView
+            android:id="@+id/congrats"
+            style="@style/sumTextsLand" />
+
+        <Button
+            android:id="@+id/retry_button"
+            style="@style/retryButtonLand"
+            android:text="@string/retry_button" />
+
+    </LinearLayout>
+
+</ScrollView>
