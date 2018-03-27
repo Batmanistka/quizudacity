@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 //Save user name
                 String userName = mEditText.getText().toString();
                 if (userName != null && userName.length() > 0) {
-                    Intent intentName = new Intent(MainActivity.this, StartQuiz.class);
+                    Intent intentName = new Intent(MainActivity.this, StartQuizActivity.class);
                     intentName.putExtra("user_name", userName);
                     startActivity(intentName);
                 }

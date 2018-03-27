@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/scrollView"
-    tools:context="com.example.android.quizudacity.EndQuiz">
+    tools:context="com.example.android.quizudacity.EndQuizActivity">
 
     <LinearLayout style="@style/universalLinear">
 

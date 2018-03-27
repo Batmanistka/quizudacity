@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".EndQuiz"
+            android:name=".EndQuizActivity"
             android:label="@string/title_activity_end_quiz"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".StartQuiz"
+            android:name=".StartQuizActivity"
             android:label="@string/title_activity_start_quiz"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

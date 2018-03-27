@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/scrollView"
-    tools:context="com.example.android.quizudacity.MainActivity">
+    tools:context="com.example.android.quizudacity.StartQuizActivity">
 
     <LinearLayout style="@style/universalLinear">
 
@@ -33,23 +33,27 @@
                 <CheckBox
                     android:id="@+id/first_q_answer_1"
                     style="@style/radioButton"
+                    android:onClick="onCheckBoxFirstQuestionChecked"
                     android:text="@string/first_question_answer1"
                     android:textAlignment="center" />
 
                 <CheckBox
                     android:id="@+id/first_q_answer_2"
                     style="@style/radioButton"
+                    android:onClick="onCheckBoxFirstQuestionChecked"
                     android:text="@string/first_question_answer2" />
 
                 <CheckBox
                     android:id="@+id/first_q_answer_3"
                     style="@style/radioButton"
+                    android:onClick="onCheckBoxFirstQuestionChecked"
                     android:text="@string/first_question_answer3" />
 
                 <CheckBox
                     android:id="@+id/first_q_answer_4"
                     style="@style/radioButton"
                     android:layout_marginBottom="20dp"
+                    android:onClick="onCheckBoxFirstQuestionChecked"
                     android:text="@string/first_question_answer4" />
 
             </LinearLayout>
@@ -174,7 +178,7 @@
 
             <ImageView
                 style="@style/questionImage"
-                android:src="@drawable/mis" />
+                android:src="@drawable/cat" />
 
         </LinearLayout>
 
@@ -188,35 +192,18 @@
             android:paddingLeft="16dp"
             android:paddingRight="16dp">
 
-            <RadioGroup
-                android:id="@+id/fourth_q_radio_group"
-                style="@style/radioGroupLand">
+            <EditText
+                android:id="@+id/edit_name"
+                style="@style/editQuestion" />
 
-                <RadioButton
-                    android:id="@+id/fourth_q_answer_1"
-                    style="@style/radioButton"
-                    android:onClick="onRadioButtonFourthQuestionClicked"
-                    android:text="@string/fourth_question_answer1" />
+            <Button
+                android:id="@+id/submit_button"
+                style="@style/submitButton"
+                android:layout_gravity="center"
+                android:onClick="onClickSubmitButtonClicked"
+                android:text="@string/submit">
+            </Button>
 
-                <RadioButton
-                    android:id="@+id/fourth_q_answer_2"
-                    style="@style/radioButton"
-                    android:onClick="onRadioButtonFourthQuestionClicked"
-                    android:text="@string/fourth_question_answer2" />
-
-                <RadioButton
-                    android:id="@+id/fourth_q_answer_3"
-                    style="@style/radioButton"
-                    android:onClick="onRadioButtonFourthQuestionClicked"
-                    android:text="@string/fourth_question_answer3" />
-
-                <RadioButton
-                    android:id="@+id/fourth_q_answer_4"
-                    style="@style/radioButton"
-                    android:layout_marginBottom="20dp"
-                    android:onClick="onRadioButtonFourthQuestionClicked"
-                    android:text="@string/fourth_question_answer4" />
-            </RadioGroup>
         </LinearLayout>
 
         <TextView
@@ -228,7 +215,7 @@
 
             <ImageView
                 style="@style/questionImage"
-                android:src="@drawable/sloth" />
+                android:src="@drawable/mis" />
 
         </LinearLayout>
 
@@ -243,7 +230,7 @@
             android:paddingRight="16dp">
 
             <RadioGroup
-                android:id="@+id/fifth_q_radio_group"
+                android:id="@+id/fourth_q_radio_group"
                 style="@style/radioGroupLand">
 
                 <RadioButton
@@ -267,7 +254,6 @@
                 <RadioButton
                     android:id="@+id/fifth_q_answer_4"
                     style="@style/radioButton"
-                    android:layout_marginBottom="20dp"
                     android:onClick="onRadioButtonFifthQuestionClicked"
                     android:text="@string/fifth_question_answer4" />
             </RadioGroup>
